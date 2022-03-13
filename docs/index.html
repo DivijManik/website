@@ -16,6 +16,19 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="static/css/screen.min.css">
     <link rel="stylesheet" href="static/css/custom.min.css">
+
+    <script type="text/javascript">var submitted=false;</script>
+            <script type="text/javascript">
+            
+            function HideSubmit() {
+                var btn_ = document.getElementById('submit_btn');
+                var text_ = document.getElementById('submiitedText');
+
+                btn_.style.display='none';
+                text_.innerText ='Your submission has been processed...';
+              };
+
+            </script>
 </head>
 
 <body>
@@ -147,11 +160,17 @@
         <div class="contact__inner">
             <h2 class="contact__title">Contact us</h2>
             <p class="contact__descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <form action="mailto:bolt.developmentteam@gmail.com" class="contact__form" method="post"><input class="contact__form-input" id="name"
-                    type="text" name="name" placeholder="Your name"> <input class="contact__form-input" id="email"
-                    type="email" name="email" placeholder="Your email"> <textarea class="contact__form-tarea"
-                    id="message" name="message" placeholder="Your message"></textarea> <input
-                    class="contact__form-submit" type="submit" value="Submit"></form>
+            <form name = "gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1Uw30525GZIU36429Hdi6SxG5NKe8Cq2XbFRHuZiWlLg/formResponse?" class="contact__form" target="hidden_iframe" onsubmit="submitted=true;">
+                <input class="contact__form-input" id="entry.2005620554"
+                    type="text" name="entry.2005620554" placeholder="Your name"> <input class="contact__form-input" id="entry.1045781291"
+                    type="email" name="entry.1045781291" placeholder="Your email"> <textarea class="contact__form-tarea"
+                    id="entry.839337160" name="entry.839337160" placeholder="Your message"></textarea>
+
+                    <h3 id="submiitedText"></h3>
+                    <input class="contact__form-submit" id="submit_btn" type="submit" value="Submit" onclick="HideSubmit()"></form>
+                
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
             <div class="contact__card vcard">
                 <h3 class="contact__card-title">Information</h3>
                 <div class="contact__card-item place">
