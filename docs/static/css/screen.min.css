@@ -149,10 +149,9 @@ body {
     color: #16a086;
 }
 .contact__form-submit {
-    float: none;
-    width: 100%;
-    margin: 20px auto 0;
-    
+    display: block;
+    float: right;
+    width: 115px;
     height: 35px;
     text-align: center;
     background-color: #1bbc9b;
