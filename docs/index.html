@@ -20,22 +20,22 @@
     <script type="text/javascript">var submitted=false;</script> 
             <script type="text/javascript">
             
-            function HideSubmit() {
-                var btn_ = document.getElementById('submit_btn');
-                var text_ = document.getElementById('submiitedText');
-                var email_ = document.forms["gform"]["entry.1045781291"].value;
-                var comments_ = document.forms["gform"]["entry.839337160"].value;
+                function HideSubmit() {
+                    var btn_ = document.getElementById('submit_btn');
+                    var text_ = document.getElementById('submiitedText');
+                    var email_ = document.forms["gform"]["entry.1045781291"].value;
+                    var comments_ = document.forms["gform"]["entry.839337160"].value;
 
-                if(email_ && comments_)
-                {
-                    btn_.style.display='none';
-                    text_.innerText ='Your submission has been processed...';
-                }
-                else
-                {
-                    alert("Please fill all the information..");
-                }
-              };
+                    if(email_ && comments_)
+                    {
+                        btn_.style.display='none';
+                        text_.innerText ='Thank you! Our team will connect with you on your mail...';
+                    }
+                    else
+                    {
+                        alert("Please fill all the information..");
+                    }
+                };
 
             </script>
 </head>
@@ -175,7 +175,7 @@
                     type="email" name="entry.1045781291" placeholder="Your email"> <textarea class="contact__form-tarea"
                     id="entry.839337160" name="entry.839337160" placeholder="Your message"></textarea>
 
-                    <h3 id="submiitedText" class="submitText"></h3>
+                    <h4 id="submiitedText" class="submitText"></h4>
                     <input class="contact__form-submit" id="submit_btn" type="submit" value="Submit" onclick="HideSubmit()"></form>
                 
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
