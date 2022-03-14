@@ -149,8 +149,8 @@ body {
     color: #16a086;
 }
 .contact__form-submit {
-    float: right;
-    width: 100px;
+    float: none;
+    width: 100%;
     margin: 20px auto 0;
     
     height: 35px;
