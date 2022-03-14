@@ -497,7 +497,7 @@ body {
     min-height: 455px;
     padding: 70px 0;
     background: #323232 url(../images/gaming-bg.jpg) center 0 no-repeat;
-    background-attachment: fixed;
+    background-attachment:scroll;
     -webkit-background-size: cover;
     background-size: cover;
     text-align: center;
