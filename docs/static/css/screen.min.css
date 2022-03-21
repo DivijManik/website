@@ -269,12 +269,14 @@ body {
 
 .page-header__logo {
     float: left;
-    height: 100px;
-    width: 225px;
-    margin: 0 10px 2px 40px;
-    padding: 0 0 0 0;
+    height: 50px;
+    margin: 25px 5px 0 40px;
+    padding: 5px 5px 0 65px;
     background: url(../images/BoltAim.png) 0 center no-repeat;
     background-position: 0%;
+    background-color:#1bbc9b;
+    border-radius: 6px;
+    text-shadow: 1px 1px 2px darkgray;
 }
 
 .page-header__logo h1 {
