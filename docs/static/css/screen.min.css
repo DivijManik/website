@@ -269,10 +269,12 @@ body {
 
 .page-header__logo {
     float: left;
-    height: 50px;
-    margin: 25px 0 0 40px;
-    padding: 5px 0 0 65px;
-    background: url(../images/logo.jpg) 0 center no-repeat
+    height: 100px;
+    width: 225px;
+    margin: 0 10px 2px 40px;
+    padding: 0 0 0 0;
+    background: url(../images/BoltAim.png) 0 center no-repeat;
+    background-position: 0%;
 }
 
 .page-header__logo h1 {
@@ -287,7 +289,7 @@ body {
 }
 
 .page-header__nav {
-    float: right;
+    float:right;
     margin: 30px 55px 0 0;
     background-color: #fff
 }
@@ -299,7 +301,7 @@ body {
 
 .page-header__nav-link {
     display: inline-block;
-    font-size: 14px;
+    font-size: calc(7px + .5vw);
     text-transform: uppercase;
     padding: 10px;
     -webkit-transition: background-color .2s;
