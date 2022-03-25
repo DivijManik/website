@@ -148,7 +148,7 @@ body {
 }
 .submitText
 {
-    color: #16a086;
+    color: #5010f1be;
 }
 .contact__form-submit {
     display: block;
@@ -156,7 +156,9 @@ body {
     width: 115px;
     height: 35px;
     text-align: center;
-    background-color: #1bbc9b;
+    background-color:#5010f1e3;
+    box-shadow: 0 5px #3808b3;
+    border-radius: 6px;
     font-size: 15px;
     color: #fff;
     text-transform: uppercase;
@@ -166,7 +168,7 @@ body {
 }
 
 .contact__form-submit:hover {
-    background-color: #158f76
+    background-color: #5010f1be
 }
 
 .contact__card {
@@ -274,9 +276,10 @@ body {
     padding: 5px 5px 0 65px;
     background: url(../images/BoltAim.png) 0 center no-repeat;
     background-position: 0%;
-    background-color:#1bbc9b;
+    background-color:#5010f1e3;
+    box-shadow: 0 5px #3808b3;
     border-radius: 6px;
-    text-shadow: 1px 1px 2px darkgray;
+    /* text-shadow: 1px 1px 2px darkgray; */
 }
 
 .page-header__logo h1 {
@@ -303,6 +306,7 @@ body {
 
 .page-header__nav-link {
     display: inline-block;
+    border-radius: 6px;
     font-size: calc(7px + .5vw);
     text-transform: uppercase;
     padding: 10px;
@@ -313,7 +317,9 @@ body {
 }
 
 .page-header__nav-link:hover, .page-header__nav-link.is-active {
-    background-color: #1bbc9b;
+    background-color:#5010f1e3;
+    box-shadow: 0 5px #3808b3;
+    border-radius: 6px;
     color: #fff
 }
 
@@ -351,7 +357,9 @@ body {
     font-size: 0;
     text-align: center;
     overflow: hidden;
-    background-color: #1bbc9b;
+    background-color:#5010f1e3;
+    box-shadow: 0 5px #3808b3;
+    border-radius: 6px;
     color: transparent;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
@@ -359,7 +367,7 @@ body {
 }
 
 .page-footer__gotop:hover {
-    background-color: #158f76
+    background-color: #5010f1be
 }
 
 .page-footer__gotop:before {
@@ -413,14 +421,16 @@ body {
     text-transform: uppercase;
     padding: 10px;
     color: #fff;
-    background-color: #1bbc9b;
+    background-color:#5010f1e3;
+    box-shadow: 0 5px #3808b3;
+    border-radius: 6px;
     -webkit-transition: background-color .2s;
     -o-transition: background-color .2s;
     transition: background-color .2s
 }
 
 .portfolio__filter-btn:hover, .portfolio__filter-btn.is-selected {
-    background-color: #158f76
+    background-color: #5010f1be
 }
 
 .portfolio__content {
@@ -455,8 +465,7 @@ body {
     height: 100%;
     top: 0;
     padding-top: 35px;
-    background-color: #1bbc9b;
-    background-color: rgba(27, 188, 155, .8);
+    background-color: #270974d2;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     color: #fff;
@@ -524,7 +533,7 @@ body {
 
 .promo__title {
     background-color:rgba(0, 0, 0, .5);
-    border: 1px solid #1bbc9b;
+    border: 1px solid #270974d2;
     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 35px;
@@ -550,7 +559,9 @@ body {
     height: 35px;
     margin: 0 auto 45px;
     padding-top: 10px;
-    background-color: #1bbc9b;
+    background-color:#5010f1e3;
+    box-shadow: 0 5px #3808b3;
+    border-radius: 6px;
     font-size: 15px;
     color: #fff;
     text-transform: uppercase;
@@ -560,7 +571,7 @@ body {
 }
 
 .promo__btn:hover {
-    background-color: #158f76
+    background-color: #5010f1be
 }
 
 .promo__go-next {
@@ -597,7 +608,7 @@ body {
     width: 100%;
     min-height: 645px;
     padding-top: 55px;
-    background-color: #16a086;
+    background-color: #4800ffd0;
     text-align: center
 }
 
@@ -672,8 +683,7 @@ body {
     top: 95px;
     left: 50%;
     margin-left: -90px;
-    background-color: #16a086;
-    background-color: rgba(22, 160, 134, .8);
+    background-color: #5010f1be;
     white-space: nowrap;
     overflow: hidden;
     opacity: 0;
