@@ -36,7 +36,11 @@
                         alert("Please fill all the information..");
                     }
                 };
-
+                
+                function OpenGoogleUrl()
+                {
+                    window.open("https://play.google.com/store/apps/dev?id=6052554311171664315");
+                }
             </script>
 </head>
 
@@ -72,52 +76,33 @@
                 <ul>
                     <li class="portfolio__filter-btn is-selected js-filter" data-filter="all">All</li>
                     <li class="portfolio__filter-btn js-filter" data-filter="web">Android/IOS</li>
-                    <li class="portfolio__filter-btn js-filter" data-filter="graphic">IOS</li>
+                    <li class="portfolio__filter-btn js-filter" data-filter="graphic">WEB</li>
                     <li class="portfolio__filter-btn js-filter" data-filter="flat">PC</li>
                 </ul>
             </nav>
             <ul class="portfolio__content">
-                <li class="portfolio__item js-item" data-cat="all flat"><a href="#"><img
-                            class="portfolio__item-img js-lazy" src="static/images/port1.png" alt="">
-                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Example
-                                title</span><span class="portfolio__item-cat">PC</span></div>
+                <li class="portfolio__item js-item" data-cat="all web"><a href="https://play.google.com/store/apps/details?id=com.BoltAim.TunnelBump"><img
+                            class="portfolio__item-img js-lazy" src="static/images/TunnelBump.png" alt="">
+                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Tunnel Bump</span><span class="portfolio__item-cat">Android/IOS</span></div>
                     </a></li>
-                <li class="portfolio__item js-item" data-cat="all web"><a href="#"><img
-                            class="portfolio__item-img js-lazy" src="static/images/port2.png" alt="">
-                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Example
-                                title</span><span class="portfolio__item-cat">Android/IOS</span></div>
+                <li class="portfolio__item js-item" data-cat="all web"><a href="https://play.google.com/store/apps/details?id=com.BoltAim.HexaRush"><img
+                            class="portfolio__item-img js-lazy" src="static/images/HexaRush.png" alt="">
+                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Hexa Rush</span><span class="portfolio__item-cat">Android/IOS</span></div>
                     </a></li>
-                <li class="portfolio__item js-item" data-cat="all graphic"><a href="#"><img
-                            class="portfolio__item-img js-lazy" src="static/images/port3.png" alt="">
-                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Example
-                                title</span><span class="portfolio__item-cat">Console</span></div>
-                    </a></li>
-                <li class="portfolio__item js-item" data-cat="all graphic web"><a href="#"><img
-                            class="portfolio__item-img js-lazy" src="static/images/port4.png" alt="">
-                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Example
-                                title</span><span class="portfolio__item-cat">Console</span></div>
-                    </a></li>
-                <li class="portfolio__item js-item" data-cat="all graphic flat"><a href="#"><img
-                            class="portfolio__item-img js-lazy" src="static/images/port6.png" alt="">
-                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Example
-                                title</span><span class="portfolio__item-cat"></span></div>
-                    </a></li>
-                <li class="portfolio__item js-item" data-cat="all web"><a href="#"><img
-                            class="portfolio__item-img js-lazy" src="static/images/port5.png" alt="">
-                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Example
-                                title</span><span class="portfolio__item-cat">Android/IOS</span></div>
-                    </a></li>
-                <li class="portfolio__item js-item" data-cat="all flat web"><a href="#"><img
-                            class="portfolio__item-img js-lazy" src="static/images/port1.png" alt="">
-                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Example
-                                title</span><span class="portfolio__item-cat">PC</span></div>
-                    </a></li>
-                <li class="portfolio__item js-item" data-cat="all web"><a href="#"><img
-                            class="portfolio__item-img js-lazy" src="static/images/port2.png" alt="">
-                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Example
-                                title</span><span class="portfolio__item-cat">Android/IOS</span></div>
-                    </a></li>
+<!--                <li class="portfolio__item js-item" data-cat="all flat web"><a href="#"><img-->
+<!--                            class="portfolio__item-img js-lazy" src="static/images/port1.png" alt="">-->
+<!--                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Example-->
+<!--                                title</span><span class="portfolio__item-cat">PC</span></div>-->
+<!--                    </a></li>-->
+<!--                <li class="portfolio__item js-item" data-cat="all web"><a href="#"><img-->
+<!--                            class="portfolio__item-img js-lazy" src="static/images/port2.png" alt="">-->
+<!--                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Example-->
+<!--                                title</span><span class="portfolio__item-cat">Android/IOS</span></div>-->
+<!--                    </a></li>-->
             </ul>
+            <input class="google" id="google" type="image" src="static/images/GoogleStore.png" name="google store" width="250" height="95" alt="google store" onclick="OpenGoogleUrl()"/>
+            <input class="apple" id="apple" type="image" src="static/images/AppleStore.png" name="apple store" width="250" height="95" alt="apple store" onclick="OpenGoogleUrl()"/>
+
         </div>
     </section><!-- $Team section-->
     <section class="team" id="team">
