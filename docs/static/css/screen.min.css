@@ -510,7 +510,7 @@ body {
 
 .promo {
     width: 100%;
-    min-height: 455px;
+    min-height: 100px;
     padding: 70px 0;
     background: #323232 url(../images/gaming-bg.jpg) center 0 no-repeat;
     background-attachment:local;
@@ -537,7 +537,7 @@ body {
     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 35px;
-    font-size: 55px;
+    font-size: 30px;
     text-transform: capitalize
 }
 
