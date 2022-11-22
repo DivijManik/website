@@ -380,8 +380,9 @@ body {
 
 .portfolio {
     width: 100%;
-    min-height: 680px;
+    min-height: 380px;
     padding-top: 20px;
+    padding-bottom: 25px;
     background-color: #fff;
     text-align: center
 }
