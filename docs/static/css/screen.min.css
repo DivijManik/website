@@ -186,6 +186,7 @@ body {
 
 .contact__card-item {
     position: relative;
+    position: relative;
     font-size: 14px;
     line-height: 24px
 }
@@ -238,7 +239,6 @@ body {
 
 .page-header {
     width: 100%;
-    min-height: 95px;
     background-color: #fff
 }
 
@@ -381,7 +381,7 @@ body {
 .portfolio {
     width: 100%;
     min-height: 680px;
-    padding-top: 50px;
+    padding-top: 20px;
     background-color: #fff;
     text-align: center
 }
@@ -406,7 +406,7 @@ body {
 .portfolio__descr {
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 40px
+    margin-bottom: 30px
 }
 
 .portfolio__filter li {
@@ -434,7 +434,7 @@ body {
 }
 
 .portfolio__content {
-    margin: 45px auto 60px
+    margin: 40px auto 5px
 }
 
 .portfolio__item {
@@ -464,7 +464,7 @@ body {
     width: 100%;
     height: 100%;
     top: 0;
-    padding-top: 35px;
+    padding-top: 0px;
     background-color: #270974d2;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -510,8 +510,8 @@ body {
 
 .promo {
     width: 100%;
-    min-height: 100px;
-    padding: 70px 0;
+    min-height: 50px;
+    padding: 10px 0;
     background: #323232 url(../images/gaming-bg.jpg) center 0 no-repeat;
     background-attachment:local;
     -webkit-background-size: cover;
@@ -536,7 +536,7 @@ body {
     border: 1px solid #270974d2;
     margin-left: 60px;
     margin-right: 60px;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     font-size: 30px;
     text-transform: capitalize
 }
@@ -680,7 +680,7 @@ body {
     position: absolute;
     width: 180px;
     height: 50px;
-    top: 95px;
+    top: 125px;
     left: 50%;
     margin-left: -90px;
     background-color: #5010f1be;
