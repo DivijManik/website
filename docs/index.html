@@ -1,182 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta name="google-site-verification" content="Ml2hZ3cEQxbBfRWa1xTB_ud1pFcJqcmPc514bDMOnUE" />
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>BoltAim Games | Home</title>
-    <meta name="description" content="Page-specific description">
-    <meta name="keywords" content="Page-specific keywords">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="shortcut icon" href="static/images/favicons/favicon.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png">
-    <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <link rel="stylesheet" href="static/css/screen.min.css">
-    <link rel="stylesheet" href="static/css/custom.min.css">
-
-    <script type="text/javascript">var submitted=false;</script> 
-            <script type="text/javascript">
-            
-                function HideSubmit() {
-                    var btn_ = document.getElementById('submit_btn');
-                    var text_ = document.getElementById('submiitedText');
-                    var email_ = document.forms["gform"]["entry.1045781291"].value;
-                    var comments_ = document.forms["gform"]["entry.839337160"].value;
-
-                    if(email_ && comments_)
-                    {
-                        btn_.style.display='none';
-                        text_.innerText ='Thank you! Our team will connect with you on your mail...';
-                    }
-                    else
-                    {
-                        alert("Please fill all the information..");
-                    }
-                };
-                
-                function OpenGoogleUrl()
-                {
-                    window.open("https://play.google.com/store/apps/dev?id=6052554311171664315");
-                }
-            </script>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/website/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="/website/logo192.png" />
+    <link rel="manifest" href="/website/manifest.json" />
+    <title>BoltAim</title>
+    <script defer="defer" src="/website/static/js/main.26136329.js"></script>
+    <link href="/website/static/css/main.98f1e1e8.css" rel="stylesheet">
 </head>
 
-<body>
-    <!-- $Page header-->
-    <header class="page-header js-header">
-<!--        <div class="page-header__inner">-->
-<!--            <div class="page-header__logo">-->
-<!--                <h1 style="color: white;">BoltAim Games</h1>&nbsp;<span style="color: white;">Leading the future of gaming</span>-->
-<!--                <!-- <h2 style="padding-top: 50px;">Games</h2>&nbsp; -->
-<!--                <!-- <h5 style="padding-top: 105px; padding-left:30px; font-weight: lighter;">Leading the future of gaming</h5> -->
-<!--            </div>-->
-<!--            <nav class="page-header__nav js-nav">-->
-<!--                <ul>-->
-<!--                    <li><a class="page-header__nav-link js-anchor js-link is-active" href="#home">Home</a></li>-->
-<!--                    <li><a class="page-header__nav-link js-anchor js-link" href="#portfolio">Portfolio</a></li>-->
-<!--                    <li><a class="page-header__nav-link js-anchor js-link" href="#team">About</a></li>-->
-<!--                    <li><a class="page-header__nav-link js-anchor js-link" href="#contact">Contact</a></li>-->
-<!--                </ul>-->
-<!--            </nav>-->
-<!--        </div>-->
-    </header><!-- $Promo section-->
-    <section class="promo js-jumbo" id="home">
-        <span>
-        <img src="static/images/logo2.PNG" style="width:300px;height:50x;max-width: 100%;"></span>
-        <h2 class="promo__title">We build<span> Games</span></h2>
-<!--        <p class="promo__descr">Our new top game Bump'n Boop is available on Android and IOS.</p><a class="promo__btn" href="#">Learn more</a><a-->
-<!--            class="promo__go-next js-anchor" href="#portfolio">Scroll down</a>-->
-    </section><!-- $Portfolio section-->
-    <section class="portfolio js-portfolio" id="portfolio">
-        <div class="portfolio__inner">
-            <h2 class="portfolio__title">Portfolio</h2>
-            <p class="portfolio__descr">Play games developed by us</p>
-            <nav class="portfolio__filter">
-                <ul>
-                    <li class="portfolio__filter-btn is-selected js-filter" data-filter="all">All</li>
-                    <li class="portfolio__filter-btn js-filter" data-filter="web">Android/IOS</li>
-                    <li class="portfolio__filter-btn js-filter" data-filter="graphic">WEB</li>
-                    <li class="portfolio__filter-btn js-filter" data-filter="flat">PC</li>
-                </ul>
-            </nav>
-            <ul class="portfolio__content">
-                <li class="portfolio__item js-item" data-cat="all web"><a href="https://play.google.com/store/apps/details?id=com.BoltAim.TunnelBump"><img
-                            class="portfolio__item-img js-lazy" src="static/images/TunnelBump.png" alt="">
-                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Tunnel Bump</span><span class="portfolio__item-cat">Android/IOS</span></div>
-                    </a></li>
-                <li class="portfolio__item js-item" data-cat="all web"><a href="https://play.google.com/store/apps/details?id=com.BoltAim.HexaRush"><img
-                            class="portfolio__item-img js-lazy" src="static/images/HexaRush.png" alt="">
-                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Hexa Rush</span><span class="portfolio__item-cat">Android/IOS</span></div>
-                    </a></li>
-<!--                <li class="portfolio__item js-item" data-cat="all flat web"><a href="#"><img-->
-<!--                            class="portfolio__item-img js-lazy" src="static/images/port1.png" alt="">-->
-<!--                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Example-->
-<!--                                title</span><span class="portfolio__item-cat">PC</span></div>-->
-<!--                    </a></li>-->
-<!--                <li class="portfolio__item js-item" data-cat="all web"><a href="#"><img-->
-<!--                            class="portfolio__item-img js-lazy" src="static/images/port2.png" alt="">-->
-<!--                        <div class="portfolio__item-caption"><span class="portfolio__item-title">Example-->
-<!--                                title</span><span class="portfolio__item-cat">Android/IOS</span></div>-->
-<!--                    </a></li>-->
-            </ul>
-            <input class="google" id="google" type="image" src="static/images/GoogleStore.png" name="google store" width="250" height="95" alt="google store" onclick="OpenGoogleUrl()"/>
-            <input class="apple" id="apple" type="image" src="static/images/AppleStore.png" name="apple store" width="250" height="95" alt="apple store" onclick="OpenGoogleUrl()"/>
-
-        </div>
-    </section><!-- $Team section-->
-    <section class="team" id="team">
-        <div class="team__inner">
-            <h2 class="team__title">About us</h2>
-            <p class="team__descr">The team behind the Awesome games. They are no less than superheroes.</p>
-            <div class="team__member"><img src="static/images/Dummy.jpg" alt="Melanie Doe">
-                <div class="team__member-info">
-                    <h3 class="team__member-name">Rahul Raj</h3><span class="team__member-role">UI/UX</span>
-                    <p class="team__member-descr">Simply love my role in BoltAim. I always wanted to be in gaming industry .</p>
-                </div>
-                <ul class="team__member-soc">
-                    <li><a class="team__member-icon fb" href="#">My Facebook</a></li>
-                    <li><a class="team__member-icon tw" href="#">Follow me on twitter</a></li>
-                </ul>
-            </div>
-            <div class="team__member"><img src="static/images/Dummy.jpg" alt="Jhonie Doe">
-                <div class="team__member-info">
-                    <h3 class="team__member-name">Divij Manik</h3><span class="team__member-role">Founder & CEO</span>
-                    <p class="team__member-descr">Started in 2019 with Aim to make great games for all ages that everyone can love.</p>
-                </div>
-                <ul class="team__member-soc">
-                    <li><a class="team__member-icon fb" href="#">My Facebook</a></li>
-                    <li><a class="team__member-icon tw" href="#">Follow me on twitter</a></li>
-                </ul>
-            </div>
-            <div class="team__member"><img src="static/images/Dummy.jpg" alt="Daniel Doe">
-                <div class="team__member-info">
-                    <h3 class="team__member-name">Aayush Sharma</h3><span class="team__member-role">Developer</span>
-                    <p class="team__member-descr">Love making video games and really happy to be a part of such a supportive team.</p>
-                </div>
-                <ul class="team__member-soc">
-                    <li><a class="team__member-icon fb" href="#">My Facebook</a></li>
-                    <li><a class="team__member-icon tw" href="#">Follow me on twitter</a></li>
-                </ul>
-            </div>
-        </div>
-    </section><!-- $Contact section-->
-    <section class="contact" id="contact">
-        <div class="contact__inner">
-            <h2 class="contact__title">Contact us</h2>
-            <p class="contact__descr">Contact us regarding quotation for your game or any general query.</p>
-            <form name = "gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1Uw30525GZIU36429Hdi6SxG5NKe8Cq2XbFRHuZiWlLg/formResponse?" class="contact__form" target="hidden_iframe" onsubmit="submitted=true;">
-                <input class="contact__form-input" id="entry.2005620554"
-                    type="text" name="entry.2005620554" placeholder="Your name"> <input class="contact__form-input" id="entry.1045781291"
-                    type="email" name="entry.1045781291" placeholder="Your email"> <textarea class="contact__form-tarea"
-                    id="entry.839337160" name="entry.839337160" placeholder="Your message"></textarea>
-
-                    <h4 id="submiitedText" class="submitText"></h4>
-                    <input class="contact__form-submit" id="submit_btn" type="submit" value="Submit" onclick="HideSubmit()"></form>
-                
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
-            <div class="contact__card vcard">
-                <h3 class="contact__card-title">Information</h3>
-                <div class="contact__card-item place">
-                    <div class="fn org">BoltAim Games Company</div>
-                    <div class="adr">
-                        <div class="street-address">A block, Sector 55</div><span class="locality">Noida</span>,<span class="region"> India</span>
-                    </div>
-                </div>
-<!--                <div class="contact__card-item tel"><span class="type">&nbsp;(Phone)&nbsp;</span>123456</div>-->
-                <!-- <div class="contact__card-item fax tel">+123<span class="type">&nbsp;(FAX)&nbsp;</span>0011223</div> -->
-                <a class="contact__card-item email" href="#">boltaim.games@gmail.com</a>
-            </div>
-        </div>
-    </section><!-- $Page footer-->
-    <footer class="page-footer">
-        <div class="page-footer__inner"><span class="page-footer__copyright">&copy; Copyright 2021 BoltAim Games</span><a class="page-footer__gotop js-anchor" href="#home">Go to top</a></div>
-    </footer>
-    <script src="static/js/body.min.js"></script>
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
 </body>
 
 </html>

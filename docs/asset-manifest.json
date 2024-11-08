@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.98f1e1e8.css",
+    "main.js": "/website/static/js/main.26136329.js",
+    "static/js/453.99074de5.chunk.js": "/website/static/js/453.99074de5.chunk.js",
+    "static/media/logo2.png": "/website/static/media/logo2.da78a3284b697b7fbd1f.png",
+    "static/media/Bg3.gif": "/website/static/media/Bg3.765f883b2f8d7c24a813.gif",
+    "static/media/HexaRush.png": "/website/static/media/HexaRush.f85dccccd6bd9464c91c.png",
+    "static/media/TunnelBump.png": "/website/static/media/TunnelBump.b2e22c2dd538ef917bd0.png",
+    "static/media/GoogleStore.png": "/website/static/media/GoogleStore.513c4104ffe214d1e767.png",
+    "static/media/Github.png": "/website/static/media/Github.b6ab3b83c12653236adb.png",
+    "static/media/Bg.webp": "/website/static/media/Bg.47b02bbd44acefba15a7.webp",
+    "static/media/CalculatorAppIcon.webp": "/website/static/media/CalculatorAppIcon.562d66b7a9aff58ed839.webp",
+    "index.html": "/website/index.html",
+    "static/media/person.svg": "/website/static/media/person.bc3fb6c7f68e241725e63c6602da1581.svg",
+    "static/media/location.svg": "/website/static/media/location.5460d9bf891e3b507b1b.svg",
+    "static/media/search.svg": "/website/static/media/search.e4707b0bb1124c3373e89c134f7b2b69.svg",
+    "static/media/mail.svg": "/website/static/media/mail.cf2475ede0a132ffbc1b.svg",
+    "static/media/arrowFrw.svg": "/website/static/media/arrowFrw.6d22a5a3ee8a36d1c6de3cb59e5babd9.svg",
+    "static/media/arrowBack.svg": "/website/static/media/arrowBack.76f465c00ae8888f019524214c91e944.svg",
+    "main.98f1e1e8.css.map": "/website/static/css/main.98f1e1e8.css.map",
+    "main.26136329.js.map": "/website/static/js/main.26136329.js.map",
+    "453.99074de5.chunk.js.map": "/website/static/js/453.99074de5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98f1e1e8.css",
+    "static/js/main.26136329.js"
+  ]
+}
