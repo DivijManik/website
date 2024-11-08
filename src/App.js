@@ -23,7 +23,7 @@ const GooglePlayLink = 'https://play.google.com/store/apps/dev?id=60525543111716
 const GithubLink = 'https://github.com/DivijManik';
 
 function App() {
-  function OpenLink({ link = '' }) {
+  function OpenLink(link = '') {
     window.open(link);
   }
 
